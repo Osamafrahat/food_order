@@ -91,7 +91,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
           ),
           SizedBox(
-            height: 25,
+            height: 10,
           ),
           Padding(
             padding: EdgeInsets.only(left: 40),
@@ -121,10 +121,10 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
           ),
           SizedBox(
-            height: 40,
+            height: 30,
           ),
           Container(
-            height: MediaQuery.of(context).size.height - 105,
+            height: MediaQuery.of(context).size.height -170,
             decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.only(topLeft: Radius.circular(75))),
@@ -135,7 +135,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 Padding(
                   padding: EdgeInsets.only(top: 10),
                   child: Container(
-                    height: MediaQuery.of(context).size.height - 150,
+                    height: MediaQuery.of(context).size.height - 170,
                     child: ListView(
                       children: <Widget>[
 

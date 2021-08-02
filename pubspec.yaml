@@ -28,11 +28,11 @@ flutter:
 
 
   assets:
+    - assets/dlivery.png
     - assets/png.png
     - assets/png 2.png
     - assets/png 3.png
     - assets/png 4.png
-    - assets/dlivery.png
 
 
   fonts:
